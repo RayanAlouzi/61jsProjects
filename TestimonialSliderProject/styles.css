@@ -1,0 +1,42 @@
+#card_background{
+    display:flex;
+    flex-direction: column;
+    background:slateblue;
+    width: 800px;
+    height: 350px;
+    position:relative;
+    border-radius:10px;
+}
+
+#picture{
+    position:absolute;
+    height:150px;
+    width:150px;
+    border-radius: 100%;
+    background:black;
+    left:325px;
+    top:-75px;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: cursive;
+    color:white;
+}
+
+#text{
+    margin-top:130px;
+    margin-left:30px;
+    margin-right:30px;
+    font-size:25px;
+}
+
+#username{ 
+    margin-top:5px;
+    margin-left:30px;
+    margin-right:30px;
+    font-size:25px;
+}
